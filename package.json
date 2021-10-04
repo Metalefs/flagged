@@ -1,18 +1,17 @@
 {
-  "name": "flagged",
+  "name": "@metalefs/flagged-with-fallback",
   "description": "Forked from flagged. Feature flags for React made easy with hooks, HOC and Render Props",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "MIT",
-  "repository": "https://github.com/sergiodxa/flagged.git",
-  "homepage": "https://github.com/sergiodxa/flagged",
-  "author": {
-    "name": "Sergio Xalambrí",
-    "url": "https://sergiodxa.com",
-    "email": "hello@sergiodxa.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metalefs/flagged.git"
   },
+  "homepage": "https://github.com/Metalefs/flagged",
+  "author": "Sergio Xalambrí | Metalefs <hello@sergiodxa.com> (https://sergiodxa.com)",
   "bugs": {
-    "email": "hello+flagged@sergiodxa.com",
-    "url": "https://github.com/sergiodxa/flagged"
+    "url": "https://github.com/Metalefs/flagged",
+    "email": "jacksonpires@devportable.com"
   },
   "main": "dist/index.js",
   "module": "dist/flagged.esm.js",
@@ -25,10 +24,12 @@
     "feature flags",
     "flags",
     "features",
+    "enable multiple features",
     "hooks",
     "hoc",
     "high order component",
     "render props",
+    "render fallback",
     "typescript",
     "types"
   ],
@@ -66,5 +67,10 @@
     "tsdx": "^0.14.0",
     "tslib": "^2.0.0",
     "typescript": "^4.0.2"
-  }
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {}
 }
